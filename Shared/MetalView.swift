@@ -116,11 +116,12 @@ struct MetalView: NSViewRepresentable {
         }
         
         func updateSampleArrayBuffer(){
-            let array = [0.1,0.2,0.3,0.4,0.5,0.6]
+//            let array = [0.1,0.2,0.3,0.4,0.5,0.6]
             
             var randomElements: [Float] = []
-            for _ in 0..<150 {
-                let randomValue:Float = Float(array.randomElement()!)
+            for i in 0..<150 {
+                let randomValue:Float = Float(parent.amplitudes[i])
+                print(randomValue)
                 randomElements.append(randomValue)
             }
             sampleArrayBuffer = metalDevice.makeBuffer(bytes:randomElements,length:randomElements.count * MemoryLayout<Float>.size)
