@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0BAF0FA6276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
 		0BAF0FA7276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
-		0BAF0FA9276B44B90097A967 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA8276B44B90097A967 /* MetalView.swift */; };
-		0BAF0FAA276B44B90097A967 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA8276B44B90097A967 /* MetalView.swift */; };
 		0BD0DA6F276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */; };
 		0BD0DA70276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */; };
+		0BE5BFDD276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5BFDC276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift */; };
+		0BE5BFDE276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5BFDC276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift */; };
 		E62512C9275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
 		E62512CA275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
 		E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512CB275C4BF000B29B17 /* withTimelineView.swift */; };
@@ -59,8 +59,8 @@
 
 /* Begin PBXFileReference section */
 		0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SimpleShader.metal; sourceTree = "<group>"; };
-		0BAF0FA8276B44B90097A967 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerMetal.swift; sourceTree = "<group>"; };
+		0BE5BFDC276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerMetalView.swift; sourceTree = "<group>"; };
 		E62512C8275C447400B29B17 /* withObservedConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withObservedConductor.swift; sourceTree = "<group>"; };
 		E62512CB275C4BF000B29B17 /* withTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withTimelineView.swift; sourceTree = "<group>"; };
 		E66A38F6275B6B8D00DCA776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 				E66A3933275B6BB700DCA776 /* Conductor.swift */,
 				E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */,
 				E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */,
+				0BE5BFDC276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift */,
 				0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */,
-				0BAF0FA8276B44B90097A967 /* MetalView.swift */,
 				0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */,
 				E62512C8275C447400B29B17 /* withObservedConductor.swift */,
 				E66A3937275B6BE000DCA776 /* ContentView.swift */,
@@ -351,7 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BAF0FA9276B44B90097A967 /* MetalView.swift in Sources */,
+				0BE5BFDD276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift in Sources */,
 				E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */,
 				E66A393D275B6BE000DCA776 /* VerticalBar.swift in Sources */,
 				E66A3934275B6BB700DCA776 /* Conductor.swift in Sources */,
@@ -369,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BAF0FAA276B44B90097A967 /* MetalView.swift in Sources */,
+				0BE5BFDE276DB7E00011D398 /* AmplitudeVisualizerMetalView.swift in Sources */,
 				E62512CD275C4BF000B29B17 /* withTimelineView.swift in Sources */,
 				E66A393E275B6BE000DCA776 /* VerticalBar.swift in Sources */,
 				E66A3935275B6BB700DCA776 /* Conductor.swift in Sources */,
