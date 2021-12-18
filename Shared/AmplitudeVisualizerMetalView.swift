@@ -54,10 +54,7 @@ struct AmplitudeVisualizerMetalView: NSViewRepresentable {
         
         var vertexBuffer: MTLBuffer!
         var texCoordBuffer: MTLBuffer!
-        var resolutionBuffer: MTLBuffer!
-        var timeBuffer: MTLBuffer!
         var amplitudesBuffer: MTLBuffer!;
-        var sampleArrayBuffer:MTLBuffer!
         var renderPipeline: MTLRenderPipelineState!
         
         
@@ -74,9 +71,6 @@ struct AmplitudeVisualizerMetalView: NSViewRepresentable {
             let size = vertexData.count * MemoryLayout<Float>.size
             vertexBuffer = metalDevice.makeBuffer(bytes:vertexData,length:size)
             texCoordBuffer = metalDevice.makeBuffer(bytes:textureCoodinateData, length:textureCoodinateData.count * MemoryLayout<Float>.size)
-            
-            timeBuffer = metalDevice.makeBuffer(length: MemoryLayout<Float>.size, options: []);
-            timeBuffer.label = "time"
             
             amplitudesBuffer = metalDevice.makeBuffer(bytes:parent.amplitudes, length:parent.amplitudes.count*MemoryLayout<Double>.size);
         }
@@ -101,29 +95,19 @@ struct AmplitudeVisualizerMetalView: NSViewRepresentable {
             
             makeBuffers();
             makePipeline();
-            
-            
-            startDate = Date().addingTimeInterval(0);
         }
         
         func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {
         }
         
-        func updateTimeBuffer(){
-            let pTimeData = timeBuffer.contents()
-            let vTimeData = pTimeData.bindMemory(to: Float.self, capacity: 1 / MemoryLayout<Float>.stride)
-            vTimeData[0] = Float(Date().timeIntervalSince(startDate));
-        }
         
         func updateSampleArrayBuffer(){
-//            let array = [0.1,0.2,0.3,0.4,0.5,0.6]
-            
-            var randomElements: [Float] = []
+           //本来ならDoubleのArrayのままShaderに送れば（確実にできる）いいのだがよくわからなかったので、一旦Floatに変換している
+            var floatAmplitudesArray: [Float] = []
             for i in 0..<150 {
-                let randomValue:Float = Float(parent.amplitudes[i])
-                randomElements.append(randomValue)
+                floatAmplitudesArray.append(Float(parent.amplitudes[i]))
             }
-            sampleArrayBuffer = metalDevice.makeBuffer(bytes:randomElements,length:randomElements.count * MemoryLayout<Float>.size)
+            amplitudesBuffer = metalDevice.makeBuffer(bytes:floatAmplitudesArray,length:floatAmplitudesArray.count * MemoryLayout<Float>.size)
             
         }
         
@@ -144,9 +128,7 @@ struct AmplitudeVisualizerMetalView: NSViewRepresentable {
             
             renderEncoder?.setVertexBuffer(vertexBuffer, offset:0,index:0)
             renderEncoder?.setVertexBuffer(texCoordBuffer, offset: 0, index: 1)
-            renderEncoder?.setFragmentBuffer(timeBuffer,offset:0,index:0)
-            renderEncoder?.setFragmentBuffer(amplitudesBuffer,offset:0,index:1)
-            renderEncoder?.setFragmentBuffer(sampleArrayBuffer,offset:0,index:2)
+            renderEncoder?.setFragmentBuffer(amplitudesBuffer,offset:0,index:0)
             
             renderEncoder?.drawPrimitives(type: .triangleStrip, vertexStart: 0, vertexCount: 4)
             renderEncoder?.endEncoding()

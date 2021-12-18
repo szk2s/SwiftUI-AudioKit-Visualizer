@@ -12,11 +12,7 @@ using namespace metal;
 struct ColorInOut{
     float4 position[[position]];
     float2 texCoords;
-    float time;
 };
-
-
-
 
 vertex ColorInOut vertexShader(constant float4 *positions[[buffer(0)]],
                                constant float2 *texCoords[[buffer(1)]],
@@ -30,16 +26,12 @@ vertex ColorInOut vertexShader(constant float4 *positions[[buffer(0)]],
 
 fragment float4 fragmentShader(ColorInOut in [[stage_in]],
                                texture2d<float> texture[[texture(0)]],
-                               constant float &time[[buffer(0)]],
-                               constant float* amplitudes[[buffer(1)]],
-                               constant float* sampleArray[[buffer(2)]]
-
+                               constant float* amplitudes[[buffer(0)]]
                                ){
-    constexpr sampler colorSampler;
     
     float arrayNum = 150.0;
-    float value =floor(in.texCoords.x*arrayNum)/arrayNum;
-    float amplitudeValue = sampleArray[int(value*arrayNum)];
+    int index =floor(in.texCoords.x*arrayNum);
+    float amplitudeValue = amplitudes[index];
     float height = (amplitudeValue<(1.0-in.texCoords.y))?0.0:1.0;
 
     return float4(0.0,0.0,height,1);
