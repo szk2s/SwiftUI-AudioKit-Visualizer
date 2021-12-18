@@ -10,7 +10,10 @@ import MetalKit
 import SwiftUI
 
 struct MetalView: NSViewRepresentable {
-    var amplitudes: [Double]
+    var conductor: Conductor
+    var amplitudes: [Double] {
+        conductor.amplitudes
+    }
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -20,7 +23,6 @@ struct MetalView: NSViewRepresentable {
         let mtkView = MTKView()
         mtkView.delegate = context.coordinator
         mtkView.preferredFramesPerSecond = 60
-        mtkView.enableSetNeedsDisplay = true
         if let metalDevice = MTLCreateSystemDefaultDevice() {
             mtkView.device = metalDevice
         }
@@ -28,8 +30,6 @@ struct MetalView: NSViewRepresentable {
         mtkView.framebufferOnly = false
         mtkView.clearColor = MTLClearColor(red: 0, green: 0, blue: 0, alpha: 0)
         mtkView.drawableSize = mtkView.frame.size
-        mtkView.enableSetNeedsDisplay = true
-        mtkView.setNeedsDisplay(NSRect());
         return mtkView
     }
     

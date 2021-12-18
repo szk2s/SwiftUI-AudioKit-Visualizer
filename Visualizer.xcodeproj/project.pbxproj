@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2CB9C2276A0FF50048DE00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CB9C1276A0FF50048DE00 /* File.swift */; };
-		0B2CB9C3276A0FF50048DE00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CB9C1276A0FF50048DE00 /* File.swift */; };
 		0BAF0FA6276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
 		0BAF0FA7276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
 		0BAF0FA9276B44B90097A967 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA8276B44B90097A967 /* MetalView.swift */; };
@@ -60,7 +58,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B2CB9C1276A0FF50048DE00 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SimpleShader.metal; sourceTree = "<group>"; };
 		0BAF0FA8276B44B90097A967 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerMetal.swift; sourceTree = "<group>"; };
@@ -144,7 +141,6 @@
 				E62512C8275C447400B29B17 /* withObservedConductor.swift */,
 				E66A3937275B6BE000DCA776 /* ContentView.swift */,
 				E62512CB275C4BF000B29B17 /* withTimelineView.swift */,
-				0B2CB9C1276A0FF50048DE00 /* File.swift */,
 				E66A3938275B6BE000DCA776 /* VerticalBar.swift */,
 				E66A38F6275B6B8D00DCA776 /* Assets.xcassets */,
 			);
@@ -365,7 +361,6 @@
 				0BAF0FA6276B22BF0097A967 /* SimpleShader.metal in Sources */,
 				E66A393B275B6BE000DCA776 /* ContentView.swift in Sources */,
 				0BD0DA6F276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */,
-				0B2CB9C2276A0FF50048DE00 /* File.swift in Sources */,
 				E66A3939275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +379,6 @@
 				0BAF0FA7276B22BF0097A967 /* SimpleShader.metal in Sources */,
 				E66A393C275B6BE000DCA776 /* ContentView.swift in Sources */,
 				0BD0DA70276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */,
-				0B2CB9C3276A0FF50048DE00 /* File.swift in Sources */,
 				E66A393A275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

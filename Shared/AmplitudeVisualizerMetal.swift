@@ -8,15 +8,14 @@
 
 import SwiftUI
 
-struct AmplitudeVisualizerMetal: AmplitudeVisualizer {
+struct AmplitudeVisualizerMetal : View {
 
-var amplitudes: [Double]
-
-
+  var conductor: Conductor
+    
   var body: some View {
       
     HStack(spacing: 0.0) {
-        MetalView(amplitudes:self.amplitudes)
+        MetalView(conductor: conductor)
     }
     .background(Color.black)
   }
