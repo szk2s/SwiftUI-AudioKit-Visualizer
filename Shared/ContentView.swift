@@ -13,7 +13,6 @@ struct ContentView: View {
   var conductor: Conductor
 
   var body: some View {
-    
     AmplitudeVisualizerMetal(conductor: conductor)
       .edgesIgnoringSafeArea(.all)
   }

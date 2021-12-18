@@ -1,5 +1,5 @@
-import SwiftUI
-
+//import SwiftUI
+//
 //struct AmplitudeVisualizerCanvas: AmplitudeVisualizer {
 //
 //  var amplitudes: [Double]
