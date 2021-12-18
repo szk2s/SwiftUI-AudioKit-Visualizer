@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2CB9C2276A0FF50048DE00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CB9C1276A0FF50048DE00 /* File.swift */; };
+		0B2CB9C3276A0FF50048DE00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CB9C1276A0FF50048DE00 /* File.swift */; };
+		0BAF0FA6276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
+		0BAF0FA7276B22BF0097A967 /* SimpleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */; };
+		0BAF0FA9276B44B90097A967 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA8276B44B90097A967 /* MetalView.swift */; };
+		0BAF0FAA276B44B90097A967 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF0FA8276B44B90097A967 /* MetalView.swift */; };
+		0BD0DA6F276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */; };
+		0BD0DA70276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */; };
 		E62512C9275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
 		E62512CA275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
 		E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512CB275C4BF000B29B17 /* withTimelineView.swift */; };
@@ -52,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2CB9C1276A0FF50048DE00 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SimpleShader.metal; sourceTree = "<group>"; };
+		0BAF0FA8276B44B90097A967 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerMetal.swift; sourceTree = "<group>"; };
 		E62512C8275C447400B29B17 /* withObservedConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withObservedConductor.swift; sourceTree = "<group>"; };
 		E62512CB275C4BF000B29B17 /* withTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withTimelineView.swift; sourceTree = "<group>"; };
 		E66A38F6275B6B8D00DCA776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,7 +80,7 @@
 		E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerForEach.swift; sourceTree = "<group>"; };
 		E66A3937275B6BE000DCA776 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E66A3938275B6BE000DCA776 /* VerticalBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalBar.swift; sourceTree = "<group>"; };
-		E66A3946275B734300DCA776 /* Visualizer--macOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Visualizer--macOS--Info.plist"; path = "../../.Trash/Visualizer--macOS--Info.plist"; sourceTree = "<group>"; };
+		E66A3946275B734300DCA776 /* Visualizer--macOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Visualizer--macOS--Info.plist"; sourceTree = "<group>"; };
 		E66A3948275B762E00DCA776 /* VisualizerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizerApp.swift; sourceTree = "<group>"; };
 		E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,9 +138,13 @@
 				E66A3933275B6BB700DCA776 /* Conductor.swift */,
 				E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */,
 				E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */,
+				0BD0DA6E276B051C00D3AA02 /* AmplitudeVisualizerMetal.swift */,
+				0BAF0FA8276B44B90097A967 /* MetalView.swift */,
+				0BAF0FA5276B22BF0097A967 /* SimpleShader.metal */,
 				E62512C8275C447400B29B17 /* withObservedConductor.swift */,
 				E66A3937275B6BE000DCA776 /* ContentView.swift */,
 				E62512CB275C4BF000B29B17 /* withTimelineView.swift */,
+				0B2CB9C1276A0FF50048DE00 /* File.swift */,
 				E66A3938275B6BE000DCA776 /* VerticalBar.swift */,
 				E66A38F6275B6B8D00DCA776 /* Assets.xcassets */,
 			);
@@ -339,13 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAF0FA9276B44B90097A967 /* MetalView.swift in Sources */,
 				E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */,
 				E66A393D275B6BE000DCA776 /* VerticalBar.swift in Sources */,
 				E66A3934275B6BB700DCA776 /* Conductor.swift in Sources */,
 				E66A3949275B762E00DCA776 /* VisualizerApp.swift in Sources */,
 				E6CD6FB6275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */,
 				E62512C9275C447400B29B17 /* withObservedConductor.swift in Sources */,
+				0BAF0FA6276B22BF0097A967 /* SimpleShader.metal in Sources */,
 				E66A393B275B6BE000DCA776 /* ContentView.swift in Sources */,
+				0BD0DA6F276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */,
+				0B2CB9C2276A0FF50048DE00 /* File.swift in Sources */,
 				E66A3939275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,13 +374,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAF0FAA276B44B90097A967 /* MetalView.swift in Sources */,
 				E62512CD275C4BF000B29B17 /* withTimelineView.swift in Sources */,
 				E66A393E275B6BE000DCA776 /* VerticalBar.swift in Sources */,
 				E66A3935275B6BB700DCA776 /* Conductor.swift in Sources */,
 				E66A394A275B762E00DCA776 /* VisualizerApp.swift in Sources */,
 				E6CD6FB7275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */,
 				E62512CA275C447400B29B17 /* withObservedConductor.swift in Sources */,
+				0BAF0FA7276B22BF0097A967 /* SimpleShader.metal in Sources */,
 				E66A393C275B6BE000DCA776 /* ContentView.swift in Sources */,
+				0BD0DA70276B051D00D3AA02 /* AmplitudeVisualizerMetal.swift in Sources */,
+				0B2CB9C3276A0FF50048DE00 /* File.swift in Sources */,
 				E66A393A275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,7 +613,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
 				PRODUCT_NAME = Visualizer;
@@ -617,7 +641,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
 				PRODUCT_NAME = Visualizer;
