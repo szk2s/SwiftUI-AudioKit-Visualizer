@@ -19,24 +19,12 @@
 		E6CD6FB7275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E66A3915275B6B8D00DCA776 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E66A38EF275B6B8C00DCA776 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E66A3900275B6B8D00DCA776;
-			remoteInfo = "Visualizer (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E62512C8275C447400B29B17 /* withObservedConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withObservedConductor.swift; sourceTree = "<group>"; };
 		E62512CB275C4BF000B29B17 /* withTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withTimelineView.swift; sourceTree = "<group>"; };
 		E66A38F6275B6B8D00DCA776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66A3901275B6B8D00DCA776 /* Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A3903275B6B8D00DCA776 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		E66A3908275B6B8D00DCA776 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E66A3914275B6B8D00DCA776 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A3933275B6BB700DCA776 /* Conductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
 		E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerForEach.swift; sourceTree = "<group>"; };
 		E66A3937275B6BE000DCA776 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,20 +39,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E66A3941275B6C0100DCA776 /* AudioKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E66A3905275B6B8D00DCA776 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E66A3911275B6B8D00DCA776 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				E66A3901275B6B8D00DCA776 /* Visualizer.app */,
-				E66A3908275B6B8D00DCA776 /* Tests iOS.xctest */,
-				E66A3914275B6B8D00DCA776 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,41 +109,6 @@
 			productReference = E66A3901275B6B8D00DCA776 /* Visualizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E66A3907275B6B8D00DCA776 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E66A392A275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				E66A3904275B6B8D00DCA776 /* Sources */,
-				E66A3905275B6B8D00DCA776 /* Frameworks */,
-				E66A3906275B6B8D00DCA776 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = E66A3908275B6B8D00DCA776 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		E66A3913275B6B8D00DCA776 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E66A392D275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				E66A3910275B6B8D00DCA776 /* Sources */,
-				E66A3911275B6B8D00DCA776 /* Frameworks */,
-				E66A3912275B6B8D00DCA776 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E66A3916275B6B8D00DCA776 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = E66A3914275B6B8D00DCA776 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,14 +121,6 @@
 				TargetAttributes = {
 					E66A3900275B6B8D00DCA776 = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					E66A3907275B6B8D00DCA776 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = E66A38FA275B6B8D00DCA776;
-					};
-					E66A3913275B6B8D00DCA776 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = E66A3900275B6B8D00DCA776;
 					};
 				};
 			};
@@ -212,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				E66A3900275B6B8D00DCA776 /* Visualizer (macOS) */,
-				E66A3907275B6B8D00DCA776 /* Tests iOS */,
-				E66A3913275B6B8D00DCA776 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -224,20 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E66A3921275B6B8D00DCA776 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E66A3906275B6B8D00DCA776 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E66A3912275B6B8D00DCA776 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,29 +172,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E66A3904275B6B8D00DCA776 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E66A3910275B6B8D00DCA776 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E66A3916275B6B8D00DCA776 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E66A3900275B6B8D00DCA776 /* Visualizer (macOS) */;
-			targetProxy = E66A3915275B6B8D00DCA776 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E66A3922275B6B8D00DCA776 /* Debug */ = {
@@ -455,103 +346,6 @@
 			};
 			name = Release;
 		};
-		E66A392B275B6B8D00DCA776 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Visualizer (iOS)";
-			};
-			name = Debug;
-		};
-		E66A392C275B6B8D00DCA776 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Visualizer (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E66A392E275B6B8D00DCA776 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Visualizer (macOS)";
-			};
-			name = Debug;
-		};
-		E66A392F275B6B8D00DCA776 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Visualizer (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,24 +363,6 @@
 			buildConfigurations = (
 				E66A3928275B6B8D00DCA776 /* Debug */,
 				E66A3929275B6B8D00DCA776 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E66A392A275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E66A392B275B6B8D00DCA776 /* Debug */,
-				E66A392C275B6B8D00DCA776 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E66A392D275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E66A392E275B6B8D00DCA776 /* Debug */,
-				E66A392F275B6B8D00DCA776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
