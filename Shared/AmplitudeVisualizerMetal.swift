@@ -15,7 +15,7 @@ struct AmplitudeVisualizerMetal : View {
   var body: some View {
       
     HStack(spacing: 0.0) {
-        MetalView(conductor: conductor)
+        AmplitudeVisualizerMetalView(conductor: conductor)
     }
     .background(Color.black)
   }

@@ -36,13 +36,11 @@ fragment float4 fragmentShader(ColorInOut in [[stage_in]],
 
                                ){
     constexpr sampler colorSampler;
-    float2 resolution(780,amplitudes[150]);
-    float4 color = texture.sample(colorSampler,in.texCoords);
     
     float arrayNum = 150.0;
     float value =floor(in.texCoords.x*arrayNum)/arrayNum;
     float amplitudeValue = sampleArray[int(value*arrayNum)];
-//    amplitudeValue = value;
-    //return color;
-    return float4(amplitudeValue,amplitudeValue,amplitudeValue,1);
+    float height = (amplitudeValue<(1.0-in.texCoords.y))?0.0:1.0;
+
+    return float4(0.0,0.0,height,1);
 }

@@ -1,5 +1,5 @@
 //
-//  MetalView.swift
+//  AmplitudeVisualizerMetalView.swift
 //  Visualizer
 //
 //  Created by okuyama on 2021/12/16.
@@ -9,7 +9,7 @@ import Foundation
 import MetalKit
 import SwiftUI
 
-struct MetalView: NSViewRepresentable {
+struct AmplitudeVisualizerMetalView: NSViewRepresentable {
     var conductor: Conductor
     var amplitudes: [Double] {
         conductor.amplitudes
@@ -19,7 +19,7 @@ struct MetalView: NSViewRepresentable {
         Coordinator(self)
     }
     
-    func makeNSView(context: NSViewRepresentableContext<MetalView>) -> MTKView {
+    func makeNSView(context: NSViewRepresentableContext<AmplitudeVisualizerMetalView>) -> MTKView {
         let mtkView = MTKView()
         mtkView.delegate = context.coordinator
         mtkView.preferredFramesPerSecond = 60
@@ -33,12 +33,12 @@ struct MetalView: NSViewRepresentable {
         return mtkView
     }
     
-    func updateNSView(_ uiView: MTKView, context: NSViewRepresentableContext<MetalView>) {
+    func updateNSView(_ uiView: MTKView, context: NSViewRepresentableContext<AmplitudeVisualizerMetalView>) {
         context.coordinator.draw(in: uiView);
     }
     
     class Coordinator: NSObject, MTKViewDelegate {
-        var parent: MetalView
+        var parent: AmplitudeVisualizerMetalView
         var metalDevice: MTLDevice!
         var metalCommandQueue: MTLCommandQueue!
         private let vertexData:[Float] = [
@@ -93,7 +93,7 @@ struct MetalView: NSViewRepresentable {
         
         
         
-        init(_ parent: MetalView) {
+        init(_ parent: AmplitudeVisualizerMetalView) {
             self.parent = parent
             super.init()
             
@@ -121,7 +121,6 @@ struct MetalView: NSViewRepresentable {
             var randomElements: [Float] = []
             for i in 0..<150 {
                 let randomValue:Float = Float(parent.amplitudes[i])
-                print(randomValue)
                 randomElements.append(randomValue)
             }
             sampleArrayBuffer = metalDevice.makeBuffer(bytes:randomElements,length:randomElements.count * MemoryLayout<Float>.size)
