@@ -64,6 +64,7 @@ final class Conductor: ObservableObject {
       fft?.start()
     } catch {
       assert(false, error.localizedDescription)
+      print("error raised")
     }
   }
 

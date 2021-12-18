@@ -13,7 +13,7 @@ struct ContentView: View {
   var conductor: Conductor
 
   var body: some View {
-    withTimelineView<AmplitudeVisualizerForEach>(conductor: conductor)
+    withObservedConductor<AmplitudeVisualizerForEach>(conductor: conductor)
       .edgesIgnoringSafeArea(.all)
   }
 }

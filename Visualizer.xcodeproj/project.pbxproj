@@ -7,41 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E62512C9275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
 		E62512CA275C447400B29B17 /* withObservedConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512C8275C447400B29B17 /* withObservedConductor.swift */; };
-		E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512CB275C4BF000B29B17 /* withTimelineView.swift */; };
 		E62512CD275C4BF000B29B17 /* withTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62512CB275C4BF000B29B17 /* withTimelineView.swift */; };
-		E66A390D275B6B8D00DCA776 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A390C275B6B8D00DCA776 /* Tests_iOS.swift */; };
-		E66A390F275B6B8D00DCA776 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A390E275B6B8D00DCA776 /* Tests_iOSLaunchTests.swift */; };
-		E66A3919275B6B8D00DCA776 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3918275B6B8D00DCA776 /* Tests_macOS.swift */; };
-		E66A391B275B6B8D00DCA776 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A391A275B6B8D00DCA776 /* Tests_macOSLaunchTests.swift */; };
-		E66A3920275B6B8D00DCA776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66A38F6275B6B8D00DCA776 /* Assets.xcassets */; };
 		E66A3921275B6B8D00DCA776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66A38F6275B6B8D00DCA776 /* Assets.xcassets */; };
-		E66A3934275B6BB700DCA776 /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3933275B6BB700DCA776 /* Conductor.swift */; };
 		E66A3935275B6BB700DCA776 /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3933275B6BB700DCA776 /* Conductor.swift */; };
-		E66A3939275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */; };
 		E66A393A275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */; };
-		E66A393B275B6BE000DCA776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3937275B6BE000DCA776 /* ContentView.swift */; };
 		E66A393C275B6BE000DCA776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3937275B6BE000DCA776 /* ContentView.swift */; };
-		E66A393D275B6BE000DCA776 /* VerticalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3938275B6BE000DCA776 /* VerticalBar.swift */; };
 		E66A393E275B6BE000DCA776 /* VerticalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3938275B6BE000DCA776 /* VerticalBar.swift */; };
 		E66A3941275B6C0100DCA776 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = E66A3940275B6C0100DCA776 /* AudioKit */; };
-		E66A3944275B6C1200DCA776 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = E66A3943275B6C1200DCA776 /* AudioKitUI */; };
-		E66A3947275B734300DCA776 /* Visualizer--macOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E66A3946275B734300DCA776 /* Visualizer--macOS--Info.plist */; };
-		E66A3949275B762E00DCA776 /* VisualizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3948275B762E00DCA776 /* VisualizerApp.swift */; };
 		E66A394A275B762E00DCA776 /* VisualizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A3948275B762E00DCA776 /* VisualizerApp.swift */; };
-		E6CD6FB6275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */; };
 		E6CD6FB7275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E66A3909275B6B8D00DCA776 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E66A38EF275B6B8C00DCA776 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E66A38FA275B6B8D00DCA776;
-			remoteInfo = "Visualizer (iOS)";
-		};
 		E66A3915275B6B8D00DCA776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E66A38EF275B6B8C00DCA776 /* Project object */;
@@ -55,37 +33,23 @@
 		E62512C8275C447400B29B17 /* withObservedConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withObservedConductor.swift; sourceTree = "<group>"; };
 		E62512CB275C4BF000B29B17 /* withTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withTimelineView.swift; sourceTree = "<group>"; };
 		E66A38F6275B6B8D00DCA776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E66A38FB275B6B8D00DCA776 /* Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A3901275B6B8D00DCA776 /* Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A3903275B6B8D00DCA776 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E66A3908275B6B8D00DCA776 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E66A390C275B6B8D00DCA776 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		E66A390E275B6B8D00DCA776 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		E66A3914275B6B8D00DCA776 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E66A3918275B6B8D00DCA776 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		E66A391A275B6B8D00DCA776 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		E66A3933275B6BB700DCA776 /* Conductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
 		E66A3936275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerForEach.swift; sourceTree = "<group>"; };
 		E66A3937275B6BE000DCA776 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E66A3938275B6BE000DCA776 /* VerticalBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalBar.swift; sourceTree = "<group>"; };
-		E66A3946275B734300DCA776 /* Visualizer--macOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Visualizer--macOS--Info.plist"; path = "../../.Trash/Visualizer--macOS--Info.plist"; sourceTree = "<group>"; };
 		E66A3948275B762E00DCA776 /* VisualizerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizerApp.swift; sourceTree = "<group>"; };
 		E6CD6FB5275BB91300B2505E /* AmplitudeVisualizerCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeVisualizerCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E66A38F8275B6B8D00DCA776 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E66A38FE275B6B8D00DCA776 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66A3944275B6C1200DCA776 /* AudioKitUI in Frameworks */,
 				E66A3941275B6C0100DCA776 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,11 +74,8 @@
 		E66A38EE275B6B8C00DCA776 = {
 			isa = PBXGroup;
 			children = (
-				E66A3946275B734300DCA776 /* Visualizer--macOS--Info.plist */,
 				E66A38F3275B6B8C00DCA776 /* Shared */,
 				E66A3902275B6B8D00DCA776 /* macOS */,
-				E66A390B275B6B8D00DCA776 /* Tests iOS */,
-				E66A3917275B6B8D00DCA776 /* Tests macOS */,
 				E66A38FC275B6B8D00DCA776 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,7 +99,6 @@
 		E66A38FC275B6B8D00DCA776 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E66A38FB275B6B8D00DCA776 /* Visualizer.app */,
 				E66A3901275B6B8D00DCA776 /* Visualizer.app */,
 				E66A3908275B6B8D00DCA776 /* Tests iOS.xctest */,
 				E66A3914275B6B8D00DCA776 /* Tests macOS.xctest */,
@@ -154,44 +114,9 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		E66A390B275B6B8D00DCA776 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E66A390C275B6B8D00DCA776 /* Tests_iOS.swift */,
-				E66A390E275B6B8D00DCA776 /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		E66A3917275B6B8D00DCA776 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				E66A3918275B6B8D00DCA776 /* Tests_macOS.swift */,
-				E66A391A275B6B8D00DCA776 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E66A38FA275B6B8D00DCA776 /* Visualizer (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E66A3924275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Visualizer (iOS)" */;
-			buildPhases = (
-				E66A38F7275B6B8D00DCA776 /* Sources */,
-				E66A38F8275B6B8D00DCA776 /* Frameworks */,
-				E66A38F9275B6B8D00DCA776 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Visualizer (iOS)";
-			productName = "Visualizer (iOS)";
-			productReference = E66A38FB275B6B8D00DCA776 /* Visualizer.app */;
-			productType = "com.apple.product-type.application";
-		};
 		E66A3900275B6B8D00DCA776 /* Visualizer (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E66A3927275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Visualizer (macOS)" */;
@@ -207,7 +132,6 @@
 			name = "Visualizer (macOS)";
 			packageProductDependencies = (
 				E66A3940275B6C0100DCA776 /* AudioKit */,
-				E66A3943275B6C1200DCA776 /* AudioKitUI */,
 			);
 			productName = "Visualizer (macOS)";
 			productReference = E66A3901275B6B8D00DCA776 /* Visualizer.app */;
@@ -224,7 +148,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				E66A390A275B6B8D00DCA776 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
@@ -259,9 +182,6 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					E66A38FA275B6B8D00DCA776 = {
-						CreatedOnToolsVersion = 13.1;
-					};
 					E66A3900275B6B8D00DCA776 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -286,13 +206,11 @@
 			mainGroup = E66A38EE275B6B8C00DCA776;
 			packageReferences = (
 				E66A393F275B6C0100DCA776 /* XCRemoteSwiftPackageReference "AudioKit" */,
-				E66A3942275B6C1200DCA776 /* XCRemoteSwiftPackageReference "AudioKitUI" */,
 			);
 			productRefGroup = E66A38FC275B6B8D00DCA776 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E66A38FA275B6B8D00DCA776 /* Visualizer (iOS) */,
 				E66A3900275B6B8D00DCA776 /* Visualizer (macOS) */,
 				E66A3907275B6B8D00DCA776 /* Tests iOS */,
 				E66A3913275B6B8D00DCA776 /* Tests macOS */,
@@ -301,19 +219,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E66A38F9275B6B8D00DCA776 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E66A3920275B6B8D00DCA776 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E66A38FF275B6B8D00DCA776 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66A3947275B734300DCA776 /* Visualizer--macOS--Info.plist in Resources */,
 				E66A3921275B6B8D00DCA776 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,21 +244,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E66A38F7275B6B8D00DCA776 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E62512CC275C4BF000B29B17 /* withTimelineView.swift in Sources */,
-				E66A393D275B6BE000DCA776 /* VerticalBar.swift in Sources */,
-				E66A3934275B6BB700DCA776 /* Conductor.swift in Sources */,
-				E66A3949275B762E00DCA776 /* VisualizerApp.swift in Sources */,
-				E6CD6FB6275BB91300B2505E /* AmplitudeVisualizerCanvas.swift in Sources */,
-				E62512C9275C447400B29B17 /* withObservedConductor.swift in Sources */,
-				E66A393B275B6BE000DCA776 /* ContentView.swift in Sources */,
-				E66A3939275B6BE000DCA776 /* AmplitudeVisualizerForEach.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E66A38FD275B6B8D00DCA776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,8 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66A390F275B6B8D00DCA776 /* Tests_iOSLaunchTests.swift in Sources */,
-				E66A390D275B6B8D00DCA776 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,19 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66A391B275B6B8D00DCA776 /* Tests_macOSLaunchTests.swift in Sources */,
-				E66A3919275B6B8D00DCA776 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E66A390A275B6B8D00DCA776 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E66A38FA275B6B8D00DCA776 /* Visualizer (iOS) */;
-			targetProxy = E66A3909275B6B8D00DCA776 /* PBXContainerItemProxy */;
-		};
 		E66A3916275B6B8D00DCA776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E66A3900275B6B8D00DCA776 /* Visualizer (macOS) */;
@@ -450,6 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -503,71 +389,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		E66A3925275B6B8D00DCA776 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading videos";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
-				PRODUCT_NAME = Visualizer;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E66A3926275B6B8D00DCA776 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading videos";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
-				PRODUCT_NAME = Visualizer;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -580,16 +406,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL953V9FZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Visualizer--macOS--Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading videos";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
 				PRODUCT_NAME = Visualizer;
@@ -608,16 +435,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL953V9FZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Visualizer--macOS--Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading videos";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magnetica-studio.Visualizer";
 				PRODUCT_NAME = Visualizer;
@@ -736,15 +564,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E66A3924275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Visualizer (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E66A3925275B6B8D00DCA776 /* Debug */,
-				E66A3926275B6B8D00DCA776 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E66A3927275B6B8D00DCA776 /* Build configuration list for PBXNativeTarget "Visualizer (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -779,16 +598,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AudioKit/AudioKit";
 			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		E66A3942275B6C1200DCA776 /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AudioKit/AudioKitUI";
-			requirement = {
-				branch = main;
-				kind = branch;
+				kind = revision;
+				revision = 3f2b4c08c0c4ab47e11be77bce7bec840cf6587f;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -798,11 +609,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E66A393F275B6C0100DCA776 /* XCRemoteSwiftPackageReference "AudioKit" */;
 			productName = AudioKit;
-		};
-		E66A3943275B6C1200DCA776 /* AudioKitUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E66A3942275B6C1200DCA776 /* XCRemoteSwiftPackageReference "AudioKitUI" */;
-			productName = AudioKitUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

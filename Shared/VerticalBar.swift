@@ -20,7 +20,7 @@ struct VerticalBar: View {
         // Colored rectangle in back of ZStack
         Rectangle()
           .fill(
-            .blue
+            Color.blue
           )
           .border(Color.black, width: 0.5)
           .frame(width: geometry.size.width * 1, height: geometry.size.height * amplitude)
